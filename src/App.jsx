@@ -8,10 +8,10 @@ import Navi from './layouts/Navi.jsx';
 function App() {
   return (
     <div className="App">
-    <Navi/>
-    <Container>
-      <Dashboard/>
-    </Container>
+      <Navi />
+      <Container>
+        <Dashboard />
+      </Container>
     </div>
   );
 }
