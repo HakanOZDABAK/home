@@ -6,7 +6,7 @@ export default function Dashboard() {
   return (
     <div >
       <Routes>
-        <Route path="/home" element={<WhoIs />} />
+        <Route path="/" element={<WhoIs />} />
       </Routes>
     </div>
   )

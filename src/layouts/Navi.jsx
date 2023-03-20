@@ -9,7 +9,7 @@ export default function Navi() {
         <div>
             <Navbar className='Navbar' expand="lg">
                 <Container>
-                    <Navbar.Brand style={{ fontWeight: 'bold' }} href="home">Who is HAKAN ÖZDABAK?</Navbar.Brand>
+                    <Navbar.Brand style={{ fontWeight: 'bold' }} href="/">Who is HAKAN ÖZDABAK?</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
