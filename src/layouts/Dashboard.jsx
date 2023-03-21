@@ -6,12 +6,10 @@ import { BrowserRouter} from 'react-router-dom';
 export default function Dashboard() {
   return (
     <div >
-      <BrowserRouter basename=''>
       <Routes>
         <Route path="" element={<WhoIs />} />
         <Route path="/home2" element={<Deneme />} />
       </Routes>
-      </BrowserRouter>
     </div>
   )
 }
