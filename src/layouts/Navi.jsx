@@ -13,7 +13,7 @@ export default function Navi() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <NavDropdown title="Menus" id="basic-nav-dropdown">
+                            <NavDropdown style={{ fontWeight: 'bold' }} title="Menus" id="basic-nav-dropdown">
                                 <NavDropdown.Item style={{ fontWeight: 'bold' }} href="#action/3.1">Projects</NavDropdown.Item>
                                 <NavDropdown.Item style={{ fontWeight: 'bold' }} href="#action/3.2">Contact</NavDropdown.Item>
                             </NavDropdown>

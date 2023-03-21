@@ -13,6 +13,10 @@
 
 }
 
-.solid {
-  border-top: 3px solid #bbb;
+.vl {
+  border-left: 6px solid black;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
 }
