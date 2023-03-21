@@ -2,21 +2,22 @@
   text-align: center;
 }
 
-.Navbar{
-   
+.Navbar {
+
   background-color: chocolate;
 }
 
-.Avatar{
+.Avatar {
   margin-top: 20px;
   border-radius: 50%;
 
 }
 
-.vl {
+.vl{
   border-left: 6px solid black;
-  height: 100px;
+  height: 100x;
   position: absolute;
   left: 50%;
   margin-left: -3px;
 }
+
