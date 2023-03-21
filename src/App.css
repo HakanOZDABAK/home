@@ -12,3 +12,7 @@
   border-radius: 50%;
 
 }
+
+.solid {
+  border-top: 3px solid #bbb;
+}

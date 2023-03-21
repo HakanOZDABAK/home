@@ -17,7 +17,11 @@ export default function WhoIs() {
                     <p style={{fontSize : "20px"}}>I was born in Adana at 01/02/2000. 
                     I was graduated from Piri Reis Anatolian High School. 
                     I have studied for 5 years with Preparatory Class at Electric and Electronic Engineering of Akdeniz University
- </p>
+                    I am improving myself at Full-Stack Develeoper. I have been making API in Java and Springboot for 2 years. Also I am developing API with FastAPI in Python. 
+                    Besides these, I have been design website with JS/HTML/CSS for 2 years together Springboot. </p>
+                    <hr class="solid"/>
+
+
             </Figure>
         
         </div>
