@@ -7,6 +7,7 @@ export default function Dashboard() {
     <div >
       <Router>
         <Switch>
+        <Route path="" component={<WhoIs />} />
         <Route path="/" component={<WhoIs />} />
         <Route path="/home2" component={<Deneme />} />
         </Switch>
