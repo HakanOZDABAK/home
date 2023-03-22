@@ -13,9 +13,9 @@
 
 }
 
-.vl{
+.Vertical{
   border-left: 6px solid black;
-  height: 100x;
+  height: 1000x;
   position: absolute;
   left: 50%;
   margin-left: -3px;

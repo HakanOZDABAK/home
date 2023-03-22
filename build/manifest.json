@@ -1,6 +1,6 @@
 {
-  "short_name": "Personal Website",
-  "name": "Hakan ÖZDABAK",
+  "short_name": "Personal Website of Hakan ÖZDABAK",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
