@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <div>
       <ListGroup as="ul">
-        <ListGroup.Item as="li" style={{backgroundColor:"color"}} onMouseEnter={(e)=>setColor("blue")} onmouseleave={(e)=>setColor("white")}>
+        <ListGroup.Item as="li" style={{backgroundColor:color}} onMouseEnter={(e)=>setColor("blue")} onmouseleave={(e)=>setColor("white")}>
           Cras justo odio
         </ListGroup.Item>
         <ListGroup.Item as="li">Dapibus ac facilisis in</ListGroup.Item>
