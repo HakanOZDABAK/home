@@ -1,20 +1,19 @@
 import React from 'react'
 import ListGroup from 'react-bootstrap/ListGroup';
 import { useState } from 'react';
+import EmotionsClassification from './projects/EmotionsClassification';
+import UserandItemAPI from './projects/UserandItemAPI';
 
 export default function Projects() {
-  const [color, setColor] = useState("white")
+  const [color1, setColor1] = useState("white")
+  const [color2, setColor2] = useState("white")
   return (
     <div>
       <ListGroup as="ul">
-        <ListGroup.Item as="li" style={{backgroundColor:color}} onMouseEnter={(e)=>setColor("blue")} onmouseleave={(e)=>setColor("white")}>
-          Cras justo odio
+        <ListGroup.Item key={1} as="li" style={{backgroundColor:color1}} onMouseEnter={(e)=>setColor1("blue")} onMouseLeave={(e)=>setColor1("white")}>
+          <EmotionsClassification/>
         </ListGroup.Item>
-        <ListGroup.Item as="li">Dapibus ac facilisis in</ListGroup.Item>
-        <ListGroup.Item as="li">
-          Morbi leo risus
-        </ListGroup.Item>
-        <ListGroup.Item as="li">Porta ac consectetur ac</ListGroup.Item>
+        <ListGroup.Item key={2} as="li"style={{backgroundColor:color2}} onMouseEnter={(e)=>setColor2("blue")} onMouseLeave={(e)=>setColor2("white")}> <UserandItemAPI/></ListGroup.Item>
       </ListGroup>
 
     </div>
