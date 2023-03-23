@@ -3,11 +3,11 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import { useState } from 'react';
 
 export default function Projects() {
-  const [color, setColor] = useState("black")
+  const [color, setColor] = useState("white")
   return (
     <div>
       <ListGroup as="ul">
-        <ListGroup.Item as="li" style={{color:color}} onMouseEnter={(e)=>setColor("blue")}>
+        <ListGroup.Item as="li" style={{backgroundColor:"color"}} onMouseEnter={(e)=>setColor("blue")} onmouseleave={(e)=>setColor("white")}>
           Cras justo odio
         </ListGroup.Item>
         <ListGroup.Item as="li">Dapibus ac facilisis in</ListGroup.Item>
