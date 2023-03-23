@@ -3,6 +3,7 @@ import Figure from 'react-bootstrap/Figure';
 import Table from 'react-bootstrap/Table';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+
 import { StarFill as Star,FileEarmarkTextFill as File } from 'react-bootstrap-icons'
 
 export default function WhoIs() {
@@ -86,7 +87,7 @@ export default function WhoIs() {
                     </tbody>
                 </Table>
                 <hr width="100%" color="chocolate" size="10" />
-                <p style={{ fontSize: "30px", color: "black", marginBottom: "20px", fontStyle: "italic" }}> Certicates</p>
+                <p style={{ fontSize: "30px", color: "black", marginBottom: "20px", fontStyle: "italic" }}> Certificates</p>
                 
                 <Row><Col><File size={"25px"} style={{marginRight: "10px"}} /><a>Basic and Advanced Excel Training</a></Col></Row>
                 <Row><Col style={{marginTop: "10px",textAlign: "center"}}><File size={"25px"} style={{marginRight: "10px"}} /><a>Digital Financial Literacy Education</a></Col></Row>
