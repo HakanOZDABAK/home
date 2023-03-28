@@ -1,7 +1,31 @@
 .App {
   text-align: center;
+ 
 }
 
+.who{
+  color: black;
+  font-size: 50px;
+  left: 33%
+}
+
+.who[big = '1']{
+  font-size: 70px;
+  left: 27%;
+  
+}
+
+
+.Home{
+  text-align: center;
+  background-image: url("C:\Users\Acer\Desktop\mywebsite\src\images\pexels-format-1029757-modified.jpg");
+  position: fixed;
+  min-height: 100%;
+  min-width: 100%;
+  background-size: cover;
+  background-position: center;
+
+}
 .Navbar {
 
   background-color: chocolate;
@@ -13,11 +37,62 @@
 
 }
 
-.Vertical{
+.Vertical {
   border-left: 6px solid black;
   height: 1000x;
   position: absolute;
   left: 50%;
   margin-left: -3px;
+}
+
+.body_whois{
+
+  animation: opacity 1.5s ;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0.0
+  }
+
+  10% {
+    opacity: 0.1
+  }
+
+  20% {
+    opacity: 0.2
+  }
+
+  30% {
+    opacity: 0.3
+  }
+
+  40% {
+    opacity: 0.4
+  }
+
+  50% {
+    opacity: 0.5
+  }
+
+  60% {
+    opacity: 0.6
+  }
+
+  70% {
+    opacity: 0.7
+  }
+
+  80% {
+    opacity: 0.8
+  }
+
+  90% {
+    opacity: 0.9
+  }
+
+  100% {
+    opacity: 1
+  }
 }
 

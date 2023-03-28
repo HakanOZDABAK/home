@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function User_and_Item_API() {
+export default function UserandItemAPI() {
   return (
     <div>
       PROJE2

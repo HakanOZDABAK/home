@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Emotions_Classification() {
+export default function EmotionsClassification() {
   return (
     <div>
       PROJE1
